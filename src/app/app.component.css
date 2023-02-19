@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+
+.navbar{
+    background-color: black;
+
+}
+.oneshopimg{
+    height: 40px;
+    display: flex;
+   
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
+.logocart{
+   background-color: black;
+   height: 2rem;
+}
+#name{
+    color: rgb(255, 255, 255);
+}
+
+#name:hover{
+    border-bottom: 1px solid red;
+    
+    transition: width .3s;
+}
+.fa-solid {
+    color: white;
+    height: 1rem;
+}
+.offcanvas{
+    position: fixed;
+    top:0;
+    right: -100%;
+}
+.offcanvas.active{
+    right: 0;
+}
+   
